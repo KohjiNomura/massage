@@ -1,0 +1,101 @@
+.container {
+    position: relative;
+}
+
+.swiper {
+    padding-bottom: 30px;
+    height: 70%;
+    width: 90%;
+}
+
+.swiper-slide {
+    height: 100%;
+}
+
+
+/* 画像サイズ調整 */
+
+.swiper-slide img {
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+
+
+/* ページネーション */
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: -30px;
+}
+
+
+/* ページネーションのサイズと色 */
+
+.swiper-pagination-bullet {
+    background-color: rgb(0, 0, 0);
+    border-radius: inherit;
+    margin: 0 3px!important;
+    width: 1.5vw;
+    height: 3px;
+    opacity: 0.19;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 32px;
+    height: 1px;
+    margin-top: -16px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: rgb(139, 139, 139);
+}
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    /* background: rgb(0, 0, 0); */
+}
+
+.counter {
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+
+body h1 {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin: 0;
+    color: rgb(135, 135, 135);
+    font-family: "M PLUS Rounded 1c";
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #333;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
